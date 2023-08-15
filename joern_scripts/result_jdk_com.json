@@ -1,0 +1,2939 @@
+[
+  [
+    {
+      "com.sun.xml.internal.ws.api.EndpointAddress.<init>:void(java.lang.String)":"$stack3.java.net.URI(url)"
+    },
+    {
+      "com.sun.xml.internal.ws.api.EndpointAddress.<init>:void(java.lang.String)":"$stack3.java.net.URI(url)"
+    },
+    {
+      "com.sun.xml.internal.ws.api.EndpointAddress.<init>:void(java.lang.String)":"this.uri = $stack3"
+    },
+    {
+      "com.sun.xml.internal.ws.api.EndpointAddress.<init>:void(java.lang.String)":"this.uri = $stack3"
+    },
+    {
+      "com.sun.xml.internal.ws.api.EndpointAddress.<init>:void(java.lang.String)":"this.initURL()"
+    },
+    {
+      "com.sun.xml.internal.ws.api.EndpointAddress.initURL:void()":"$stack8 = this.uri"
+    },
+    {
+      "com.sun.xml.internal.ws.api.EndpointAddress.initURL:void()":"$stack8 = this.uri"
+    },
+    {
+      "com.sun.xml.internal.ws.api.EndpointAddress.initURL:void()":"$stack8.toASCIIString()"
+    },
+    {
+      "com.sun.xml.internal.ws.api.EndpointAddress.initURL:void()":"$stack9 = $stack8.toASCIIString()"
+    },
+    {
+      "com.sun.xml.internal.ws.api.EndpointAddress.initURL:void()":"$stack9 = $stack8.toASCIIString()"
+    },
+    {
+      "com.sun.xml.internal.ws.api.EndpointAddress.initURL:void()":"$stack7.java.net.URL($stack9)"
+    }
+  ],
+  [
+    {
+      "com.sun.jndi.ldap.LdapURL.<init>:void(java.lang.String)":"this.init(url)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.init:void(java.lang.String)":"this.parse(uri, $stack2)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parse:void(java.lang.String,com.sun.jndi.toolkit.url.Uri$ParseMode)":"this.parseStrict(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parse:void(java.lang.String,com.sun.jndi.toolkit.url.Uri$ParseMode)":"this.parseStrict(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parse:void(java.lang.String,com.sun.jndi.toolkit.url.Uri$ParseMode)":"this.parseCompat(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.indexOf(58)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.indexOf(47)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.indexOf(63)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.indexOf(35)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"makeConcatWithConstants(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"makeConcatWithConstants(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.length()"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"this.isSchemeOnly(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"this.isSchemeOnly(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"this.newInvalidURISchemeException(uri)"
+    }
+  ],
+  [
+    {
+      "com.sun.jndi.url.ldap.ldapURLContext.searchUsingURL:javax.naming.NamingEnumeration(java.lang.String)":"$stack7.com.sun.jndi.ldap.LdapURL(name)"
+    },
+    {
+      "com.sun.jndi.url.ldap.ldapURLContext.searchUsingURL:javax.naming.NamingEnumeration(java.lang.String)":"this.getRootURLContext(name, $stack8)"
+    },
+    {
+      "com.sun.jndi.url.ldap.ldapURLContext.getRootURLContext:javax.naming.spi.ResolveResult(java.lang.String,java.util.Hashtable)":"getUsingURLIgnoreRootDN(name, env)"
+    },
+    {
+      "com.sun.jndi.url.ldap.ldapURLContextFactory.getUsingURLIgnoreRootDN:javax.naming.spi.ResolveResult(java.lang.String,java.util.Hashtable)":"$stack6.com.sun.jndi.ldap.LdapURL(url)"
+    },
+    {
+      "com.sun.jndi.ldap.LdapURL.<init>:void(java.lang.String)":"this.init(url)"
+    },
+    {
+      "com.sun.jndi.ldap.LdapURL.<init>:void(java.lang.String)":"this.init(url)"
+    },
+    {
+      "com.sun.jndi.ldap.LdapURL.<init>:void(java.lang.String)":"this.newInvalidURISchemeException(url)"
+    }
+  ],
+  [
+    {
+      "com.sun.java.swing.plaf.gtk.Metacity.<init>:void(java.lang.String)":"getThemeDir(themeName)"
+    },
+    {
+      "com.sun.java.swing.plaf.gtk.Metacity.getThemeDir:java.net.URL(java.lang.String)":"$stack1.doPrivileged($stack2, themeName)"
+    },
+    {
+      "com.sun.java.swing.plaf.gtk.Metacity$Privileged.doPrivileged:java.lang.Object(int,java.lang.Object)":"this.arg = arg"
+    },
+    {
+      "com.sun.java.swing.plaf.gtk.Metacity$Privileged.doPrivileged:java.lang.Object(int,java.lang.Object)":"this.arg = arg"
+    },
+    {
+      "com.sun.java.swing.plaf.gtk.Metacity$Privileged.doPrivileged:java.lang.Object(int,java.lang.Object)":"doPrivileged(this)"
+    },
+    {
+      "com.sun.java.swing.plaf.gtk.Metacity$Privileged.doPrivileged:java.lang.Object(int,java.lang.Object)":"$stack3 = doPrivileged(this)"
+    },
+    {
+      "com.sun.java.swing.plaf.gtk.Metacity$Privileged.doPrivileged:java.lang.Object(int,java.lang.Object)":"$stack3 = doPrivileged(this)"
+    },
+    {
+      "com.sun.java.swing.plaf.gtk.Metacity.getThemeDir:java.net.URL(java.lang.String)":"$stack3 = $stack1.doPrivileged($stack2, themeName)"
+    },
+    {
+      "com.sun.java.swing.plaf.gtk.Metacity.getThemeDir:java.net.URL(java.lang.String)":"$stack3 = $stack1.doPrivileged($stack2, themeName)"
+    },
+    {
+      "com.sun.java.swing.plaf.gtk.Metacity.getThemeDir:java.net.URL(java.lang.String)":"$stack4 = (java.net.URL) $stack3"
+    },
+    {
+      "com.sun.java.swing.plaf.gtk.Metacity.getThemeDir:java.net.URL(java.lang.String)":"$stack4 = (java.net.URL) $stack3"
+    },
+    {
+      "com.sun.java.swing.plaf.gtk.Metacity.<init>:void(java.lang.String)":"$stack19 = getThemeDir(themeName)"
+    },
+    {
+      "com.sun.java.swing.plaf.gtk.Metacity.<init>:void(java.lang.String)":"$stack19 = getThemeDir(themeName)"
+    },
+    {
+      "com.sun.java.swing.plaf.gtk.Metacity.<init>:void(java.lang.String)":"this.themeDir = $stack19"
+    },
+    {
+      "com.sun.java.swing.plaf.gtk.Metacity.<init>:void(java.lang.String)":"this.themeDir = $stack19"
+    },
+    {
+      "com.sun.java.swing.plaf.gtk.Metacity.<init>:void(java.lang.String)":"$stack23 = this.themeDir"
+    },
+    {
+      "com.sun.java.swing.plaf.gtk.Metacity.<init>:void(java.lang.String)":"$stack23 = this.themeDir"
+    },
+    {
+      "com.sun.java.swing.plaf.gtk.Metacity.<init>:void(java.lang.String)":"$stack22.java.net.URL($stack23, \"metacity-theme-1.xml\")"
+    },
+    {
+      "com.sun.java.swing.plaf.gtk.Metacity.<init>:void(java.lang.String)":"$stack22.java.net.URL($stack23, \"metacity-theme-1.xml\")"
+    },
+    {
+      "com.sun.java.swing.plaf.gtk.Metacity.<init>:void(java.lang.String)":"themeURL = $stack22"
+    },
+    {
+      "com.sun.java.swing.plaf.gtk.Metacity.<init>:void(java.lang.String)":"themeURL = $stack22"
+    },
+    {
+      "com.sun.java.swing.plaf.gtk.Metacity.<init>:void(java.lang.String)":"getXMLDoc(themeURL)"
+    },
+    {
+      "com.sun.java.swing.plaf.gtk.Metacity.getXMLDoc:org.w3c.dom.Document(java.net.URL)":"$stack4.com.sun.java.swing.plaf.gtk.Metacity$1(xmlFile)"
+    },
+    {
+      "com.sun.java.swing.plaf.gtk.Metacity$1.<init>:void(java.net.URL)":"this.val$xmlFile = l1"
+    },
+    {
+      "com.sun.java.swing.plaf.gtk.Metacity$1.<init>:void(java.net.URL)":"this.val$xmlFile = l1"
+    },
+    {
+      "com.sun.java.swing.plaf.gtk.Metacity$1.<init>:void(java.net.URL)":"this.java.lang.Object()"
+    },
+    {
+      "com.sun.java.swing.plaf.gtk.Metacity.getXMLDoc:org.w3c.dom.Document(java.net.URL)":"$stack4.com.sun.java.swing.plaf.gtk.Metacity$1(xmlFile)"
+    },
+    {
+      "com.sun.java.swing.plaf.gtk.Metacity.getXMLDoc:org.w3c.dom.Document(java.net.URL)":"doPrivileged($stack4)"
+    },
+    {
+      "com.sun.java.swing.plaf.gtk.Metacity.getXMLDoc:org.w3c.dom.Document(java.net.URL)":"$stack5 = doPrivileged($stack4)"
+    },
+    {
+      "com.sun.java.swing.plaf.gtk.Metacity.getXMLDoc:org.w3c.dom.Document(java.net.URL)":"$stack5 = doPrivileged($stack4)"
+    },
+    {
+      "com.sun.java.swing.plaf.gtk.Metacity.getXMLDoc:org.w3c.dom.Document(java.net.URL)":"inputStream = (java.io.InputStream) $stack5"
+    },
+    {
+      "com.sun.java.swing.plaf.gtk.Metacity.getXMLDoc:org.w3c.dom.Document(java.net.URL)":"inputStream = (java.io.InputStream) $stack5"
+    },
+    {
+      "com.sun.java.swing.plaf.gtk.Metacity.getXMLDoc:org.w3c.dom.Document(java.net.URL)":"inputStream == null"
+    },
+    {
+      "com.sun.java.swing.plaf.gtk.Metacity.getXMLDoc:org.w3c.dom.Document(java.net.URL)":"$stack6.parse(inputStream)"
+    }
+  ],
+  [
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId:java.lang.String(java.lang.String,java.lang.String)":"$u0.com.sun.org.apache.xerces.internal.util.URI(systemId)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId:java.lang.String(java.lang.String,java.lang.String)":"fixURI(systemId)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str.replace($stack4, 47)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId:java.lang.String(java.lang.String,java.lang.String)":"fixURI(systemId)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId:java.lang.String(java.lang.String,java.lang.String)":"baseSystemId.equals(systemId)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId:java.lang.String(java.lang.String,java.lang.String)":"baseSystemId.equals(systemId)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId:java.lang.String(java.lang.String,java.lang.String)":"fixURI(baseSystemId)"
+    }
+  ],
+  [
+    {
+      "com.sun.jndi.dns.DnsUrl.<init>:void(java.lang.String)":"this.com.sun.jndi.toolkit.url.Uri(url)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.<init>:void(java.lang.String)":"this.init(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.init:void(java.lang.String)":"this.parse(uri, $stack2)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parse:void(java.lang.String,com.sun.jndi.toolkit.url.Uri$ParseMode)":"this.parseStrict(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"this.isSchemeOnly(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"this.isSchemeOnly(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$u0.java.net.URI(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"makeConcatWithConstants(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"makeConcatWithConstants(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"uri.indexOf(58)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$stack9 = uri.indexOf(58)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$stack9 = uri.indexOf(58)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"uri.substring(0, $stack9)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"uri.substring(0, $stack9)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"makeConcatWithConstants(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$stack12 = makeConcatWithConstants(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$stack12 = makeConcatWithConstants(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$u4.java.net.URI($stack12)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$u4.java.net.URI($stack12)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"auth#17 = $u4"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"auth#17 = $u4"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"auth#17.getScheme()"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"auth#17.getScheme()"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$stack16 = auth#17.getScheme()"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$stack16 = auth#17.getScheme()"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"this.checkSchemeOnly(uri, $stack16)"
+    },
+    {
+      "com.sun.jndi.dns.DnsUrl.checkSchemeOnly:boolean(java.lang.String,java.lang.String)":"makeConcatWithConstants(scheme)"
+    },
+    {
+      "com.sun.jndi.dns.DnsUrl.checkSchemeOnly:boolean(java.lang.String,java.lang.String)":"$stack3 = makeConcatWithConstants(scheme)"
+    },
+    {
+      "com.sun.jndi.dns.DnsUrl.checkSchemeOnly:boolean(java.lang.String,java.lang.String)":"$stack3 = makeConcatWithConstants(scheme)"
+    },
+    {
+      "com.sun.jndi.dns.DnsUrl.checkSchemeOnly:boolean(java.lang.String,java.lang.String)":"uri.equals($stack3)"
+    },
+    {
+      "com.sun.jndi.dns.DnsUrl.checkSchemeOnly:boolean(java.lang.String,java.lang.String)":"uri.equals($stack3)"
+    },
+    {
+      "com.sun.jndi.dns.DnsUrl.checkSchemeOnly:boolean(java.lang.String,java.lang.String)":"uri.equals($stack5)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"this.checkSchemeOnly(uri, $stack16)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"this.newInvalidURISchemeException(uri)"
+    }
+  ],
+  [
+    {
+      "com.sun.activation.registries.MimeTypeFile.<init>:void(java.lang.String)":"this.fname = new_fname"
+    },
+    {
+      "com.sun.activation.registries.MimeTypeFile.<init>:void(java.lang.String)":"this.fname = new_fname"
+    },
+    {
+      "com.sun.activation.registries.MimeTypeFile.<init>:void(java.lang.String)":"$stack9 = this.fname"
+    },
+    {
+      "com.sun.activation.registries.MimeTypeFile.<init>:void(java.lang.String)":"$stack9 = this.fname"
+    },
+    {
+      "com.sun.activation.registries.MimeTypeFile.<init>:void(java.lang.String)":"$stack8.java.io.File($stack9)"
+    },
+    {
+      "com.sun.activation.registries.MimeTypeFile.<init>:void(java.lang.String)":"$stack8.java.io.File($stack9)"
+    },
+    {
+      "com.sun.activation.registries.MimeTypeFile.<init>:void(java.lang.String)":"mime_file = $stack8"
+    },
+    {
+      "com.sun.activation.registries.MimeTypeFile.<init>:void(java.lang.String)":"mime_file = $stack8"
+    },
+    {
+      "com.sun.activation.registries.MimeTypeFile.<init>:void(java.lang.String)":"$stack10.java.io.FileReader(mime_file)"
+    }
+  ],
+  [
+    {
+      "com.sun.activation.registries.MimeTypeFile.<init>:void(java.lang.String)":"this.fname = new_fname"
+    },
+    {
+      "com.sun.activation.registries.MimeTypeFile.<init>:void(java.lang.String)":"this.fname = new_fname"
+    },
+    {
+      "com.sun.activation.registries.MimeTypeFile.<init>:void(java.lang.String)":"$stack9 = this.fname"
+    },
+    {
+      "com.sun.activation.registries.MimeTypeFile.<init>:void(java.lang.String)":"$stack9 = this.fname"
+    },
+    {
+      "com.sun.activation.registries.MimeTypeFile.<init>:void(java.lang.String)":"$stack8.java.io.File($stack9)"
+    }
+  ],
+  [
+    {
+      "com.sun.jndi.url.ldap.ldapURLContext.searchUsingURL:javax.naming.NamingEnumeration(java.lang.String)":"$stack7.com.sun.jndi.ldap.LdapURL(name)"
+    },
+    {
+      "com.sun.jndi.url.ldap.ldapURLContext.searchUsingURL:javax.naming.NamingEnumeration(java.lang.String)":"this.getRootURLContext(name, $stack8)"
+    }
+  ],
+  [
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId:java.lang.String(java.lang.String,java.lang.String)":"$u0.com.sun.org.apache.xerces.internal.util.URI(systemId)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId:java.lang.String(java.lang.String,java.lang.String)":"fixURI(systemId)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str.replace($stack4, 47)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2 = str.replace($stack4, 47)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2 = str.replace($stack4, 47)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2.length()"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2.charAt(1)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2.charAt(0)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"makeConcatWithConstants(str#2)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2 = makeConcatWithConstants(str#2)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2 = makeConcatWithConstants(str#2)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2.charAt(0)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"makeConcatWithConstants(str#2)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2 = makeConcatWithConstants(str#2)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2 = makeConcatWithConstants(str#2)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2.indexOf(32)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"ch1#11 = str#2.indexOf(32)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"ch1#11 = str#2.indexOf(32)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"ch1#11 < 0"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"i >= ch1#11"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"i >= ch1#11"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2.charAt(i)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2.charAt(i)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2.length()"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"$stack11 = str#2.length()"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"$stack11 = str#2.length()"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"i >= $stack11"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"i >= $stack11"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2.charAt(i)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2.charAt(i)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"$stack15 = str#2.charAt(i)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"$stack15 = str#2.charAt(i)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"ch0#14.append($stack15)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"ch0#14.append($stack15)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"ch0#14.append(\"%20\")"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"ch0#14.toString()"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2 = ch0#14.toString()"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2 = ch0#14.toString()"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId:java.lang.String(java.lang.String,java.lang.String)":"uri_1#3 = fixURI(systemId)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId:java.lang.String(java.lang.String,java.lang.String)":"uri_1#3 = fixURI(systemId)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId:java.lang.String(java.lang.String,java.lang.String)":"$u5.com.sun.org.apache.xerces.internal.util.URI(base, uri_1#3)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.<init>:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"this.initialize(p_base, p_uriSpec)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec = p_uriSpec"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec = p_uriSpec"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec == null"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.length()"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.indexOf(58)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"colonIdx = uriSpec.indexOf(58)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"colonIdx = uriSpec.indexOf(58)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"colonIdx == $i0"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"colonIdx - 1"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"searchFrom = colonIdx - 1"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"searchFrom = colonIdx - 1"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.lastIndexOf(47, searchFrom)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.lastIndexOf(47, searchFrom)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.lastIndexOf(63, searchFrom)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.lastIndexOf(35, searchFrom)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"this.initializeScheme(uriSpec)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializeScheme:void(java.lang.String)":"p_uriSpec.length()"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializeScheme:void(java.lang.String)":"uriSpecLen = p_uriSpec.length()"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializeScheme:void(java.lang.String)":"uriSpecLen = p_uriSpec.length()"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializeScheme:void(java.lang.String)":"index >= uriSpecLen"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializeScheme:void(java.lang.String)":"index >= uriSpecLen"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializeScheme:void(java.lang.String)":"p_uriSpec.charAt(index)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializeScheme:void(java.lang.String)":"p_uriSpec.charAt(index)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializeScheme:void(java.lang.String)":"p_uriSpec.substring(0, index)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"this.initializeScheme(uriSpec)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.charAt($stack43)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.indexOf(35)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.charAt(index)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.charAt(index)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"$stack18 = index + 1"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"$stack18 = index + 1"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.charAt($stack18)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.charAt($stack18)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.charAt(index)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.charAt(index)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"index = index + 1"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"index = index + 1"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"index >= uriSpecLen"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"index <= searchFrom"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.substring(searchFrom, index)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"this.initializePath(uriSpec, index)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"index = p_nStartIndex"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"index = p_nStartIndex"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"index >= end"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"p_uriSpec.charAt(index)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"index = index + 1"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"index = index + 1"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"index >= end"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"p_uriSpec.charAt(index)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"$stack36 = index + 1"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"$stack36 = index + 1"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"p_uriSpec.charAt($stack36)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"p_uriSpec.charAt($stack36)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"p_uriSpec.charAt($stack40)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"p_uriSpec.charAt(index)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"testChar = p_uriSpec.charAt(index)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"testChar = p_uriSpec.charAt(index)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"testChar != 35"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"testChar != 37"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"isURICharacter(testChar)"
+    }
+  ],
+  [
+    {
+      "com.sun.jndi.toolkit.url.Uri.<init>:void(java.lang.String)":"this.init(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.init:void(java.lang.String)":"this.parse(uri, $stack2)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parse:void(java.lang.String,com.sun.jndi.toolkit.url.Uri$ParseMode)":"this.parseStrict(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"this.isSchemeOnly(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"this.isSchemeOnly(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$u0.java.net.URI(uri)"
+    }
+  ],
+  [
+    {
+      "com.sun.media.sound.RIFFWriter$RandomAccessFileWriter.<init>:void(java.lang.String)":"$stack2.java.io.RandomAccessFile(name, \"rw\")"
+    }
+  ],
+  [
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId:java.lang.String(java.lang.String,java.lang.String)":"$u0.com.sun.org.apache.xerces.internal.util.URI(systemId)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId:java.lang.String(java.lang.String,java.lang.String)":"fixURI(systemId)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str.replace($stack4, 47)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2 = str.replace($stack4, 47)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2 = str.replace($stack4, 47)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2.length()"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2.charAt(1)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2.charAt(0)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"makeConcatWithConstants(str#2)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2 = makeConcatWithConstants(str#2)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2 = makeConcatWithConstants(str#2)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2.charAt(0)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"makeConcatWithConstants(str#2)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2 = makeConcatWithConstants(str#2)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2 = makeConcatWithConstants(str#2)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2.indexOf(32)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"ch1#11 = str#2.indexOf(32)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"ch1#11 = str#2.indexOf(32)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"ch1#11 < 0"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"i >= ch1#11"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"i >= ch1#11"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2.charAt(i)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2.charAt(i)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2.length()"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"$stack11 = str#2.length()"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"$stack11 = str#2.length()"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"i >= $stack11"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"i >= $stack11"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2.charAt(i)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2.charAt(i)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"$stack15 = str#2.charAt(i)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"$stack15 = str#2.charAt(i)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"ch0#14.append($stack15)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"ch0#14.append($stack15)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"ch0#14.append(\"%20\")"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"ch0#14.toString()"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2 = ch0#14.toString()"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2 = ch0#14.toString()"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId:java.lang.String(java.lang.String,java.lang.String)":"uri_1#3 = fixURI(systemId)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId:java.lang.String(java.lang.String,java.lang.String)":"uri_1#3 = fixURI(systemId)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId:java.lang.String(java.lang.String,java.lang.String)":"$u5.com.sun.org.apache.xerces.internal.util.URI(base, uri_1#3)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.<init>:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"this.initialize(p_base, p_uriSpec)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec = p_uriSpec"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec = p_uriSpec"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec == null"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.length()"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.indexOf(58)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"colonIdx = uriSpec.indexOf(58)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"colonIdx = uriSpec.indexOf(58)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"colonIdx == $i0"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"colonIdx - 1"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"searchFrom = colonIdx - 1"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"searchFrom = colonIdx - 1"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.lastIndexOf(47, searchFrom)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.lastIndexOf(47, searchFrom)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.lastIndexOf(63, searchFrom)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.lastIndexOf(35, searchFrom)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"this.initializeScheme(uriSpec)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializeScheme:void(java.lang.String)":"p_uriSpec.length()"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializeScheme:void(java.lang.String)":"uriSpecLen = p_uriSpec.length()"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializeScheme:void(java.lang.String)":"uriSpecLen = p_uriSpec.length()"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializeScheme:void(java.lang.String)":"index >= uriSpecLen"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializeScheme:void(java.lang.String)":"index >= uriSpecLen"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializeScheme:void(java.lang.String)":"p_uriSpec.charAt(index)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializeScheme:void(java.lang.String)":"p_uriSpec.charAt(index)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializeScheme:void(java.lang.String)":"p_uriSpec.substring(0, index)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"this.initializeScheme(uriSpec)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.charAt($stack43)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.indexOf(35)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.charAt(index)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.charAt(index)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"$stack18 = index + 1"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"$stack18 = index + 1"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.charAt($stack18)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.charAt($stack18)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.charAt(index)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.charAt(index)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"index = index + 1"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"index = index + 1"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"index >= uriSpecLen"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"index <= searchFrom"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.substring(searchFrom, index)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"this.initializePath(uriSpec, index)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"index = p_nStartIndex"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"index = p_nStartIndex"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"index >= end"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"p_uriSpec.charAt(index)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"$stack62 = index + 1"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"$stack62 = index + 1"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"p_uriSpec.charAt($stack62)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"p_uriSpec.charAt($stack62)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"p_uriSpec.charAt($stack66)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"p_uriSpec.charAt(index)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"p_uriSpec.charAt(index)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"testChar = p_uriSpec.charAt(index)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"testChar = p_uriSpec.charAt(index)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"testChar == 63"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"testChar != 35"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"testChar != 37"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"isURICharacter(testChar)"
+    }
+  ],
+  [
+    {
+      "com.sun.jndi.ldap.LdapURL.<init>:void(java.lang.String)":"this.init(url)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.init:void(java.lang.String)":"this.parse(uri, $stack2)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parse:void(java.lang.String,com.sun.jndi.toolkit.url.Uri$ParseMode)":"this.parseStrict(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"this.isSchemeOnly(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"this.isSchemeOnly(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$u0.java.net.URI(uri)"
+    }
+  ],
+  [
+    {
+      "com.sun.activation.registries.MailcapFile.<init>:void(java.lang.String)":"$stack13.append(new_fname)"
+    },
+    {
+      "com.sun.activation.registries.MailcapFile.<init>:void(java.lang.String)":"$stack10.java.io.FileReader(new_fname)"
+    }
+  ],
+  [
+    {
+      "com.sun.jndi.toolkit.url.Uri.<init>:void(java.lang.String)":"this.init(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.init:void(java.lang.String)":"this.parse(uri, $stack2)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parse:void(java.lang.String,com.sun.jndi.toolkit.url.Uri$ParseMode)":"this.parseStrict(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parse:void(java.lang.String,com.sun.jndi.toolkit.url.Uri$ParseMode)":"this.parseStrict(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parse:void(java.lang.String,com.sun.jndi.toolkit.url.Uri$ParseMode)":"this.parseCompat(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.indexOf(58)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.indexOf(47)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.indexOf(63)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.indexOf(35)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"makeConcatWithConstants(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"makeConcatWithConstants(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.length()"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"this.isSchemeOnly(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"this.isSchemeOnly(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"this.newInvalidURISchemeException(uri)"
+    }
+  ],
+  [
+    {
+      "com.sun.management.jmx.TraceListener.<init>:void(java.lang.String)":"$stack3.java.io.FileOutputStream(l1, 1)"
+    }
+  ],
+  [
+    {
+      "com.sun.jndi.cosnaming.IiopUrl.<init>:void(java.lang.String)":"l1.startsWith(\"iiopname://\")"
+    },
+    {
+      "com.sun.jndi.cosnaming.IiopUrl.<init>:void(java.lang.String)":"l1.startsWith(\"iiop://\")"
+    },
+    {
+      "com.sun.jndi.cosnaming.IiopUrl.<init>:void(java.lang.String)":"$stack17.append(l1)"
+    },
+    {
+      "com.sun.jndi.cosnaming.IiopUrl.<init>:void(java.lang.String)":"l1.indexOf(47, l2)"
+    },
+    {
+      "com.sun.jndi.cosnaming.IiopUrl.<init>:void(java.lang.String)":"l1.indexOf(63, l2)"
+    },
+    {
+      "com.sun.jndi.cosnaming.IiopUrl.<init>:void(java.lang.String)":"l1.indexOf(35, l2)"
+    },
+    {
+      "com.sun.jndi.cosnaming.IiopUrl.<init>:void(java.lang.String)":"l7 = l1.indexOf(35, l2)"
+    },
+    {
+      "com.sun.jndi.cosnaming.IiopUrl.<init>:void(java.lang.String)":"l7 = l1.indexOf(35, l2)"
+    },
+    {
+      "com.sun.jndi.cosnaming.IiopUrl.<init>:void(java.lang.String)":"l7 < 0"
+    },
+    {
+      "com.sun.jndi.cosnaming.IiopUrl.<init>:void(java.lang.String)":"l5 <= l7"
+    },
+    {
+      "com.sun.jndi.cosnaming.IiopUrl.<init>:void(java.lang.String)":"l7 < 0"
+    },
+    {
+      "com.sun.jndi.cosnaming.IiopUrl.<init>:void(java.lang.String)":"l6 <= l7"
+    },
+    {
+      "com.sun.jndi.cosnaming.IiopUrl.<init>:void(java.lang.String)":"l6 <= l7"
+    },
+    {
+      "com.sun.jndi.cosnaming.IiopUrl.<init>:void(java.lang.String)":"l6 < 0"
+    },
+    {
+      "com.sun.jndi.cosnaming.IiopUrl.<init>:void(java.lang.String)":"$stack85 = l6"
+    },
+    {
+      "com.sun.jndi.cosnaming.IiopUrl.<init>:void(java.lang.String)":"$stack85 = l6"
+    },
+    {
+      "com.sun.jndi.cosnaming.IiopUrl.<init>:void(java.lang.String)":"l8 = $stack85"
+    },
+    {
+      "com.sun.jndi.cosnaming.IiopUrl.<init>:void(java.lang.String)":"l8 = $stack85"
+    },
+    {
+      "com.sun.jndi.cosnaming.IiopUrl.<init>:void(java.lang.String)":"l9 = l8"
+    },
+    {
+      "com.sun.jndi.cosnaming.IiopUrl.<init>:void(java.lang.String)":"l9 = l8"
+    },
+    {
+      "com.sun.jndi.cosnaming.IiopUrl.<init>:void(java.lang.String)":"l9 >= 0"
+    },
+    {
+      "com.sun.jndi.cosnaming.IiopUrl.<init>:void(java.lang.String)":"$stack25 = l9 + 1"
+    },
+    {
+      "com.sun.jndi.cosnaming.IiopUrl.<init>:void(java.lang.String)":"$stack25 = l9 + 1"
+    },
+    {
+      "com.sun.jndi.cosnaming.IiopUrl.<init>:void(java.lang.String)":"l1.substring($stack25)"
+    },
+    {
+      "com.sun.jndi.cosnaming.IiopUrl.<init>:void(java.lang.String)":"l1.substring($stack25)"
+    },
+    {
+      "com.sun.jndi.cosnaming.IiopUrl.<init>:void(java.lang.String)":"$stack26 = l1.substring($stack25)"
+    },
+    {
+      "com.sun.jndi.cosnaming.IiopUrl.<init>:void(java.lang.String)":"$stack26 = l1.substring($stack25)"
+    },
+    {
+      "com.sun.jndi.cosnaming.IiopUrl.<init>:void(java.lang.String)":"decode($stack26)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.UrlUtil.decode:java.lang.String(java.lang.String)":"decode(s, \"8859_1\")"
+    },
+    {
+      "com.sun.jndi.toolkit.url.UrlUtil.decode:java.lang.String(java.lang.String,java.lang.String)":"decode(s, enc)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.UrlUtil.decode:java.lang.String(java.lang.String,java.lang.String)":"$stack4 = decode(s, enc)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.UrlUtil.decode:java.lang.String(java.lang.String,java.lang.String)":"$stack4 = decode(s, enc)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.UrlUtil.decode:java.lang.String(java.lang.String)":"$stack2 = decode(s, \"8859_1\")"
+    },
+    {
+      "com.sun.jndi.toolkit.url.UrlUtil.decode:java.lang.String(java.lang.String)":"$stack2 = decode(s, \"8859_1\")"
+    },
+    {
+      "com.sun.jndi.cosnaming.IiopUrl.<init>:void(java.lang.String)":"$stack27 = decode($stack26)"
+    },
+    {
+      "com.sun.jndi.cosnaming.IiopUrl.<init>:void(java.lang.String)":"$stack27 = decode($stack26)"
+    },
+    {
+      "com.sun.jndi.cosnaming.IiopUrl.<init>:void(java.lang.String)":"l0.stringName = $stack27"
+    },
+    {
+      "com.sun.jndi.cosnaming.IiopUrl.<init>:void(java.lang.String)":"l0.stringName = $stack27"
+    },
+    {
+      "com.sun.jndi.cosnaming.IiopUrl.<init>:void(java.lang.String)":"$stack62 = l0.stringName"
+    },
+    {
+      "com.sun.jndi.cosnaming.IiopUrl.<init>:void(java.lang.String)":"$stack62 = l0.stringName"
+    },
+    {
+      "com.sun.jndi.cosnaming.IiopUrl.<init>:void(java.lang.String)":"$stack61.append($stack62)"
+    },
+    {
+      "com.sun.jndi.cosnaming.IiopUrl.<init>:void(java.lang.String)":"$stack61.append($stack62)"
+    },
+    {
+      "com.sun.jndi.cosnaming.IiopUrl.<init>:void(java.lang.String)":"$stack63 = $stack61.append($stack62)"
+    },
+    {
+      "com.sun.jndi.cosnaming.IiopUrl.<init>:void(java.lang.String)":"$stack63 = $stack61.append($stack62)"
+    },
+    {
+      "com.sun.jndi.cosnaming.IiopUrl.<init>:void(java.lang.String)":"$stack63.toString()"
+    },
+    {
+      "com.sun.jndi.cosnaming.IiopUrl.<init>:void(java.lang.String)":"$stack64 = $stack63.toString()"
+    },
+    {
+      "com.sun.jndi.cosnaming.IiopUrl.<init>:void(java.lang.String)":"$stack64 = $stack63.toString()"
+    },
+    {
+      "com.sun.jndi.cosnaming.IiopUrl.<init>:void(java.lang.String)":"$u3.java.net.URI($stack64)"
+    }
+  ],
+  [
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId:java.lang.String(java.lang.String,java.lang.String)":"$u0.com.sun.org.apache.xerces.internal.util.URI(systemId)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId:java.lang.String(java.lang.String,java.lang.String)":"fixURI(systemId)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str.replace($stack4, 47)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId:java.lang.String(java.lang.String,java.lang.String)":"fixURI(systemId)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId:java.lang.String(java.lang.String,java.lang.String)":"baseSystemId.equals(systemId)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId:java.lang.String(java.lang.String,java.lang.String)":"baseSystemId.equals(systemId)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId:java.lang.String(java.lang.String,java.lang.String)":"fixURI(baseSystemId)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str.replace($stack4, 47)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId:java.lang.String(java.lang.String,java.lang.String)":"fixURI(baseSystemId)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId:java.lang.String(java.lang.String,java.lang.String)":"baseSystemId.indexOf(58)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId:java.lang.String(java.lang.String,java.lang.String)":"fixURI(baseSystemId)"
+    }
+  ],
+  [
+    {
+      "com.sun.jndi.ldap.LdapURL.<init>:void(java.lang.String)":"this.init(url)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.init:void(java.lang.String)":"this.parse(uri, $stack2)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parse:void(java.lang.String,com.sun.jndi.toolkit.url.Uri$ParseMode)":"this.parseStrict(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parse:void(java.lang.String,com.sun.jndi.toolkit.url.Uri$ParseMode)":"this.parseStrict(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parse:void(java.lang.String,com.sun.jndi.toolkit.url.Uri$ParseMode)":"this.parseCompat(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.indexOf(58)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.indexOf(47)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.indexOf(63)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.indexOf(35)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"makeConcatWithConstants(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"makeConcatWithConstants(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.length()"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"$stack22 = uri.length()"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"$stack22 = uri.length()"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"$stack22 - 1"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"$stack23 = $stack22 - 1"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"$stack23 = $stack22 - 1"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"i != $stack23"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"i != $stack23"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.substring(0, i)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"i = i + 1"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"i = i + 1"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.startsWith(\"//\", i)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"i = i + 2"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"i = i + 2"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.indexOf(47, i)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.indexOf(47, i)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"enda = uri.indexOf(47, i)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"enda = uri.indexOf(47, i)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"enda == $i5"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"qmark >= enda"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"enda == $i7"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"fmark >= enda"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"enda >= 0"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"enda <= i"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"enda <= i"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.substring(i, enda)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.substring(i, enda)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.substring(0, enda)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"$stack37 = uri.substring(0, enda)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"$stack37 = uri.substring(0, enda)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"makeConcatWithConstants($stack37)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"$stack38 = makeConcatWithConstants($stack37)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"$stack38 = makeConcatWithConstants($stack37)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"$u2.java.net.URI($stack38)"
+    }
+  ],
+  [
+    {
+      "com.sun.jndi.ldap.LdapURL.<init>:void(java.lang.String)":"this.init(url)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.init:void(java.lang.String)":"this.parse(uri, $stack2)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parse:void(java.lang.String,com.sun.jndi.toolkit.url.Uri$ParseMode)":"this.parseStrict(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"this.isSchemeOnly(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"this.isSchemeOnly(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$u0.java.net.URI(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"makeConcatWithConstants(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"makeConcatWithConstants(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"uri.indexOf(58)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$stack9 = uri.indexOf(58)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$stack9 = uri.indexOf(58)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"uri.substring(0, $stack9)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"uri.substring(0, $stack9)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"makeConcatWithConstants(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$stack12 = makeConcatWithConstants(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$stack12 = makeConcatWithConstants(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$u4.java.net.URI($stack12)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$u4.java.net.URI($stack12)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"auth#17 = $u4"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"auth#17 = $u4"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"auth#17.getScheme()"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"auth#17.getScheme()"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$stack16 = auth#17.getScheme()"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$stack16 = auth#17.getScheme()"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"this.checkSchemeOnly(uri, $stack16)"
+    },
+    {
+      "com.sun.jndi.dns.DnsUrl.checkSchemeOnly:boolean(java.lang.String,java.lang.String)":"makeConcatWithConstants(scheme)"
+    },
+    {
+      "com.sun.jndi.dns.DnsUrl.checkSchemeOnly:boolean(java.lang.String,java.lang.String)":"$stack3 = makeConcatWithConstants(scheme)"
+    },
+    {
+      "com.sun.jndi.dns.DnsUrl.checkSchemeOnly:boolean(java.lang.String,java.lang.String)":"$stack3 = makeConcatWithConstants(scheme)"
+    },
+    {
+      "com.sun.jndi.dns.DnsUrl.checkSchemeOnly:boolean(java.lang.String,java.lang.String)":"uri.equals($stack3)"
+    },
+    {
+      "com.sun.jndi.dns.DnsUrl.checkSchemeOnly:boolean(java.lang.String,java.lang.String)":"uri.equals($stack3)"
+    },
+    {
+      "com.sun.jndi.dns.DnsUrl.checkSchemeOnly:boolean(java.lang.String,java.lang.String)":"uri.equals($stack5)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"this.checkSchemeOnly(uri, $stack16)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"this.newInvalidURISchemeException(uri)"
+    }
+  ],
+  [
+    {
+      "com.sun.xml.internal.ws.api.EndpointAddress.<init>:void(java.lang.String)":"$stack3.java.net.URI(url)"
+    }
+  ],
+  [
+    {
+      "com.sun.jndi.toolkit.url.Uri.<init>:void(java.lang.String)":"this.init(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.init:void(java.lang.String)":"this.parse(uri, $stack2)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parse:void(java.lang.String,com.sun.jndi.toolkit.url.Uri$ParseMode)":"this.parseStrict(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"this.isSchemeOnly(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"this.isSchemeOnly(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$u0.java.net.URI(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"makeConcatWithConstants(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"makeConcatWithConstants(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"uri.indexOf(58)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$stack9 = uri.indexOf(58)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$stack9 = uri.indexOf(58)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"uri.substring(0, $stack9)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"uri.substring(0, $stack9)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"makeConcatWithConstants(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$stack12 = makeConcatWithConstants(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$stack12 = makeConcatWithConstants(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$u4.java.net.URI($stack12)"
+    }
+  ],
+  [
+    {
+      "com.sun.xml.internal.ws.api.EndpointAddress.<init>:void(java.lang.String)":"$stack3.java.net.URI(url)"
+    },
+    {
+      "com.sun.xml.internal.ws.api.EndpointAddress.<init>:void(java.lang.String)":"$stack3.java.net.URI(url)"
+    },
+    {
+      "com.sun.xml.internal.ws.api.EndpointAddress.<init>:void(java.lang.String)":"this.uri = $stack3"
+    },
+    {
+      "com.sun.xml.internal.ws.api.EndpointAddress.<init>:void(java.lang.String)":"this.uri = $stack3"
+    },
+    {
+      "com.sun.xml.internal.ws.api.EndpointAddress.<init>:void(java.lang.String)":"this.initURL()"
+    },
+    {
+      "com.sun.xml.internal.ws.api.EndpointAddress.initURL:void()":"$stack17 = this.uri"
+    },
+    {
+      "com.sun.xml.internal.ws.api.EndpointAddress.initURL:void()":"$stack17 = this.uri"
+    },
+    {
+      "com.sun.xml.internal.ws.api.EndpointAddress.initURL:void()":"$stack17.toString()"
+    },
+    {
+      "com.sun.xml.internal.ws.api.EndpointAddress.initURL:void()":"$stack18 = $stack17.toString()"
+    },
+    {
+      "com.sun.xml.internal.ws.api.EndpointAddress.initURL:void()":"$stack18 = $stack17.toString()"
+    },
+    {
+      "com.sun.xml.internal.ws.api.EndpointAddress.initURL:void()":"$stack16.java.net.URL($stack18)"
+    }
+  ],
+  [
+    {
+      "com.sun.jndi.url.ldap.ldapURLContext.searchUsingURL:javax.naming.NamingEnumeration(java.lang.String)":"$stack7.com.sun.jndi.ldap.LdapURL(name)"
+    },
+    {
+      "com.sun.jndi.url.ldap.ldapURLContext.searchUsingURL:javax.naming.NamingEnumeration(java.lang.String)":"this.getRootURLContext(name, $stack8)"
+    },
+    {
+      "com.sun.jndi.url.ldap.ldapURLContext.getRootURLContext:javax.naming.spi.ResolveResult(java.lang.String,java.util.Hashtable)":"getUsingURLIgnoreRootDN(name, env)"
+    }
+  ],
+  [
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId:java.lang.String(java.lang.String,java.lang.String)":"$u0.com.sun.org.apache.xerces.internal.util.URI(systemId)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId:java.lang.String(java.lang.String,java.lang.String)":"fixURI(systemId)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str.replace($stack4, 47)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId:java.lang.String(java.lang.String,java.lang.String)":"fixURI(systemId)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId:java.lang.String(java.lang.String,java.lang.String)":"baseSystemId.equals(systemId)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId:java.lang.String(java.lang.String,java.lang.String)":"baseSystemId.equals(systemId)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId:java.lang.String(java.lang.String,java.lang.String)":"fixURI(baseSystemId)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str.replace($stack4, 47)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId:java.lang.String(java.lang.String,java.lang.String)":"fixURI(baseSystemId)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId:java.lang.String(java.lang.String,java.lang.String)":"baseSystemId.indexOf(58)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId:java.lang.String(java.lang.String,java.lang.String)":"fixURI(baseSystemId)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str.replace($stack4, 47)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId:java.lang.String(java.lang.String,java.lang.String)":"fixURI(baseSystemId)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId:java.lang.String(java.lang.String,java.lang.String)":"fixURI(baseSystemId)"
+    }
+  ],
+  [
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId:java.lang.String(java.lang.String,java.lang.String)":"$u0.com.sun.org.apache.xerces.internal.util.URI(systemId)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId:java.lang.String(java.lang.String,java.lang.String)":"fixURI(systemId)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str.replace($stack4, 47)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2 = str.replace($stack4, 47)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2 = str.replace($stack4, 47)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2.length()"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2.charAt(1)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2.charAt(0)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"makeConcatWithConstants(str#2)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2 = makeConcatWithConstants(str#2)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2 = makeConcatWithConstants(str#2)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2.charAt(0)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"makeConcatWithConstants(str#2)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2 = makeConcatWithConstants(str#2)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2 = makeConcatWithConstants(str#2)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2.indexOf(32)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"ch1#11 = str#2.indexOf(32)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"ch1#11 = str#2.indexOf(32)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"ch1#11 < 0"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"i >= ch1#11"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"i >= ch1#11"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2.charAt(i)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2.charAt(i)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2.length()"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"$stack11 = str#2.length()"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"$stack11 = str#2.length()"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"i >= $stack11"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"i >= $stack11"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2.charAt(i)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2.charAt(i)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"$stack15 = str#2.charAt(i)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"$stack15 = str#2.charAt(i)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"ch0#14.append($stack15)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"ch0#14.append($stack15)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"ch0#14.append(\"%20\")"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"ch0#14.toString()"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2 = ch0#14.toString()"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.fixURI:java.lang.String(java.lang.String)":"str#2 = ch0#14.toString()"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId:java.lang.String(java.lang.String,java.lang.String)":"uri_1#3 = fixURI(systemId)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId:java.lang.String(java.lang.String,java.lang.String)":"uri_1#3 = fixURI(systemId)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId:java.lang.String(java.lang.String,java.lang.String)":"$u5.com.sun.org.apache.xerces.internal.util.URI(base, uri_1#3)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.<init>:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"this.initialize(p_base, p_uriSpec)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec = p_uriSpec"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec = p_uriSpec"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec == null"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.length()"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.indexOf(58)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"colonIdx = uriSpec.indexOf(58)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"colonIdx = uriSpec.indexOf(58)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"colonIdx == $i0"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"colonIdx - 1"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"searchFrom = colonIdx - 1"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"searchFrom = colonIdx - 1"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.lastIndexOf(47, searchFrom)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.lastIndexOf(47, searchFrom)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.lastIndexOf(63, searchFrom)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.lastIndexOf(35, searchFrom)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"this.initializeScheme(uriSpec)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializeScheme:void(java.lang.String)":"p_uriSpec.length()"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializeScheme:void(java.lang.String)":"uriSpecLen = p_uriSpec.length()"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializeScheme:void(java.lang.String)":"uriSpecLen = p_uriSpec.length()"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializeScheme:void(java.lang.String)":"index >= uriSpecLen"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializeScheme:void(java.lang.String)":"index >= uriSpecLen"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializeScheme:void(java.lang.String)":"p_uriSpec.charAt(index)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializeScheme:void(java.lang.String)":"p_uriSpec.charAt(index)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializeScheme:void(java.lang.String)":"p_uriSpec.substring(0, index)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"this.initializeScheme(uriSpec)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.charAt($stack43)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.indexOf(35)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.charAt(index)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.charAt(index)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"$stack18 = index + 1"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"$stack18 = index + 1"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.charAt($stack18)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.charAt($stack18)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.charAt(index)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.charAt(index)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"index = index + 1"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"index = index + 1"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"index >= uriSpecLen"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"index <= searchFrom"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"uriSpec.substring(searchFrom, index)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initialize:void(com.sun.org.apache.xerces.internal.util.URI,java.lang.String)":"this.initializePath(uriSpec, index)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"index = p_nStartIndex"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"index = p_nStartIndex"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"index >= end"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"p_uriSpec.charAt(index)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"index = index + 1"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"index = index + 1"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"index >= end"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"p_uriSpec.charAt(index)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"index = index + 1"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"index = index + 1"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"index >= end"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"p_uriSpec.charAt(index)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"$stack18 = index + 1"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"$stack18 = index + 1"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"p_uriSpec.charAt($stack18)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"p_uriSpec.charAt($stack18)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"p_uriSpec.charAt($stack22)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"p_uriSpec.charAt(index)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"testChar = p_uriSpec.charAt(index)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"testChar = p_uriSpec.charAt(index)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.util.URI.initializePath:void(java.lang.String,int)":"isURICharacter(testChar)"
+    }
+  ],
+  [
+    {
+      "com.sun.jndi.toolkit.url.Uri.<init>:void(java.lang.String)":"this.init(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.init:void(java.lang.String)":"this.parse(uri, $stack2)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parse:void(java.lang.String,com.sun.jndi.toolkit.url.Uri$ParseMode)":"this.parseStrict(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parse:void(java.lang.String,com.sun.jndi.toolkit.url.Uri$ParseMode)":"this.parseStrict(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parse:void(java.lang.String,com.sun.jndi.toolkit.url.Uri$ParseMode)":"this.parseCompat(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.indexOf(58)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.indexOf(47)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.indexOf(63)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.indexOf(35)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"makeConcatWithConstants(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"makeConcatWithConstants(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.length()"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"$stack22 = uri.length()"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"$stack22 = uri.length()"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"$stack22 - 1"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"$stack23 = $stack22 - 1"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"$stack23 = $stack22 - 1"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"i != $stack23"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"i != $stack23"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.substring(0, i)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"i = i + 1"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"i = i + 1"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.startsWith(\"//\", i)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"i = i + 2"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"i = i + 2"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.indexOf(47, i)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.indexOf(47, i)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"enda = uri.indexOf(47, i)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"enda = uri.indexOf(47, i)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"enda == $i5"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"qmark >= enda"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"enda == $i7"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"fmark >= enda"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"enda >= 0"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"enda <= i"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"enda <= i"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.substring(i, enda)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.substring(i, enda)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.substring(0, enda)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"$stack37 = uri.substring(0, enda)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"$stack37 = uri.substring(0, enda)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"makeConcatWithConstants($stack37)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"$stack38 = makeConcatWithConstants($stack37)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"$stack38 = makeConcatWithConstants($stack37)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"$u2.java.net.URI($stack38)"
+    }
+  ],
+  [
+    {
+      "com.sun.jndi.dns.DnsUrl.<init>:void(java.lang.String)":"this.com.sun.jndi.toolkit.url.Uri(url)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.<init>:void(java.lang.String)":"this.init(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.init:void(java.lang.String)":"this.parse(uri, $stack2)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parse:void(java.lang.String,com.sun.jndi.toolkit.url.Uri$ParseMode)":"this.parseStrict(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parse:void(java.lang.String,com.sun.jndi.toolkit.url.Uri$ParseMode)":"this.parseStrict(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parse:void(java.lang.String,com.sun.jndi.toolkit.url.Uri$ParseMode)":"this.parseCompat(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.indexOf(58)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.indexOf(47)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.indexOf(63)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.indexOf(35)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"makeConcatWithConstants(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"makeConcatWithConstants(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.length()"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"this.isSchemeOnly(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"this.isSchemeOnly(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"this.newInvalidURISchemeException(uri)"
+    }
+  ],
+  [
+    {
+      "com.sun.corba.se.impl.naming.namingutil.CorbanameURL.<init>:void(java.lang.String)":"l2 = l1"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.CorbanameURL.<init>:void(java.lang.String)":"l2 = l1"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.CorbanameURL.<init>:void(java.lang.String)":"cleanEscapes(l2)"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.cleanEscapes:java.lang.String(java.lang.String)":"l0.length()"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.cleanEscapes:java.lang.String(java.lang.String)":"$stack8 = l0.length()"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.cleanEscapes:java.lang.String(java.lang.String)":"$stack8 = l0.length()"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.cleanEscapes:java.lang.String(java.lang.String)":"l2 >= $stack8"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.cleanEscapes:java.lang.String(java.lang.String)":"l2 >= $stack8"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.cleanEscapes:java.lang.String(java.lang.String)":"l0.charAt(l2)"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.cleanEscapes:java.lang.String(java.lang.String)":"l2 = l2 + 1"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.cleanEscapes:java.lang.String(java.lang.String)":"l2 = l2 + 1"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.cleanEscapes:java.lang.String(java.lang.String)":"l0.charAt(l2)"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.cleanEscapes:java.lang.String(java.lang.String)":"l2 = l2 + 1"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.cleanEscapes:java.lang.String(java.lang.String)":"l2 = l2 + 1"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.cleanEscapes:java.lang.String(java.lang.String)":"l0.charAt(l2)"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.cleanEscapes:java.lang.String(java.lang.String)":"l0.charAt(l2)"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.cleanEscapes:java.lang.String(java.lang.String)":"l0.charAt(l2)"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.cleanEscapes:java.lang.String(java.lang.String)":"l0.charAt(l2)"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.cleanEscapes:java.lang.String(java.lang.String)":"$stack11 = l0.charAt(l2)"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.cleanEscapes:java.lang.String(java.lang.String)":"$stack11 = l0.charAt(l2)"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.cleanEscapes:java.lang.String(java.lang.String)":"hexOf($stack11)"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.hexOf:int(char)":"$i2 = (int) l0"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.hexOf:int(char)":"$i2 = (int) l0"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.hexOf:int(char)":"$i2 - 65"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.hexOf:int(char)":"$stack3 = $i2 - 65"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.hexOf:int(char)":"$stack3 = $i2 - 65"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.hexOf:int(char)":"l1 = $stack3 + 10"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.hexOf:int(char)":"l1 = $stack3 + 10"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.hexOf:int(char)":"l1 < 10"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.hexOf:int(char)":"l1 > 15"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.cleanEscapes:java.lang.String(java.lang.String)":"l4 = hexOf($stack11)"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.cleanEscapes:java.lang.String(java.lang.String)":"l4 = hexOf($stack11)"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.cleanEscapes:java.lang.String(java.lang.String)":"l4 * 16"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.cleanEscapes:java.lang.String(java.lang.String)":"$stack15 = l4 * 16"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.cleanEscapes:java.lang.String(java.lang.String)":"$stack15 = l4 * 16"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.cleanEscapes:java.lang.String(java.lang.String)":"l6 = $stack15 + l5"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.cleanEscapes:java.lang.String(java.lang.String)":"l6 = $stack15 + l5"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.cleanEscapes:java.lang.String(java.lang.String)":"$stack16 = (char) l6"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.cleanEscapes:java.lang.String(java.lang.String)":"$stack16 = (char) l6"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.cleanEscapes:java.lang.String(java.lang.String)":"$i2 = (int) $stack16"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.cleanEscapes:java.lang.String(java.lang.String)":"$i2 = (int) $stack16"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.cleanEscapes:java.lang.String(java.lang.String)":"l1.write($i2)"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.cleanEscapes:java.lang.String(java.lang.String)":"l1.write($i2)"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.cleanEscapes:java.lang.String(java.lang.String)":"l1.write($i1)"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.cleanEscapes:java.lang.String(java.lang.String)":"l1.toString()"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.cleanEscapes:java.lang.String(java.lang.String)":"$stack9 = l1.toString()"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.Utility.cleanEscapes:java.lang.String(java.lang.String)":"$stack9 = l1.toString()"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.CorbanameURL.<init>:void(java.lang.String)":"l2 = cleanEscapes(l2)"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.CorbanameURL.<init>:void(java.lang.String)":"l2 = cleanEscapes(l2)"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.CorbanameURL.<init>:void(java.lang.String)":"l2.indexOf(35)"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.CorbanameURL.<init>:void(java.lang.String)":"l3#3 = l2.indexOf(35)"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.CorbanameURL.<init>:void(java.lang.String)":"l3#3 = l2.indexOf(35)"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.CorbanameURL.<init>:void(java.lang.String)":"l3#3 == $i0"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.CorbanameURL.<init>:void(java.lang.String)":"l2.substring(0, l3#3)"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.CorbanameURL.<init>:void(java.lang.String)":"l2.substring(0, l3#3)"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.CorbanameURL.<init>:void(java.lang.String)":"l2.length()"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.CorbanameURL.<init>:void(java.lang.String)":"$stack13 = l2.length()"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.CorbanameURL.<init>:void(java.lang.String)":"$stack13 = l2.length()"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.CorbanameURL.<init>:void(java.lang.String)":"l2.substring(0, $stack13)"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.CorbanameURL.<init>:void(java.lang.String)":"l2.substring(0, $stack13)"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.CorbanameURL.<init>:void(java.lang.String)":"$stack14 = l2.substring(0, $stack13)"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.CorbanameURL.<init>:void(java.lang.String)":"$stack14 = l2.substring(0, $stack13)"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.CorbanameURL.<init>:void(java.lang.String)":"$stack11.append($stack14)"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.CorbanameURL.<init>:void(java.lang.String)":"$stack11.append($stack14)"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.CorbanameURL.<init>:void(java.lang.String)":"$stack15 = $stack11.append($stack14)"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.CorbanameURL.<init>:void(java.lang.String)":"$stack15 = $stack11.append($stack14)"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.CorbanameURL.<init>:void(java.lang.String)":"$stack15.toString()"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.CorbanameURL.<init>:void(java.lang.String)":"l4 = $stack15.toString()"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.CorbanameURL.<init>:void(java.lang.String)":"l4 = $stack15.toString()"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.CorbanameURL.<init>:void(java.lang.String)":"l4.endsWith(\"/\")"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.CorbanameURL.<init>:void(java.lang.String)":"$u2.append(l4)"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.CorbanameURL.<init>:void(java.lang.String)":"$u2.append(l4)"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.CorbanameURL.<init>:void(java.lang.String)":"$stack24 = $u2.append(l4)"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.CorbanameURL.<init>:void(java.lang.String)":"$stack24 = $u2.append(l4)"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.CorbanameURL.<init>:void(java.lang.String)":"$stack24.append(\"/\")"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.CorbanameURL.<init>:void(java.lang.String)":"$stack25 = $stack24.append(\"/\")"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.CorbanameURL.<init>:void(java.lang.String)":"$stack25 = $stack24.append(\"/\")"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.CorbanameURL.<init>:void(java.lang.String)":"$stack25.toString()"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.CorbanameURL.<init>:void(java.lang.String)":"l4 = $stack25.toString()"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.CorbanameURL.<init>:void(java.lang.String)":"l4 = $stack25.toString()"
+    },
+    {
+      "com.sun.corba.se.impl.naming.namingutil.CorbanameURL.<init>:void(java.lang.String)":"$stack18.parseURL(l4)"
+    }
+  ],
+  [
+    {
+      "com.sun.org.apache.bcel.internal.classfile.ClassParser.<init>:void(java.lang.String)":"this.fileName = fileName"
+    },
+    {
+      "com.sun.org.apache.bcel.internal.classfile.ClassParser.<init>:void(java.lang.String)":"this.fileName = fileName"
+    },
+    {
+      "com.sun.org.apache.bcel.internal.util.BCELifier.getJavaClass:com.sun.org.apache.bcel.internal.classfile.JavaClass(java.lang.String)":"$stack3.com.sun.org.apache.bcel.internal.classfile.ClassParser(name)"
+    },
+    {
+      "com.sun.org.apache.bcel.internal.util.BCELifier.getJavaClass:com.sun.org.apache.bcel.internal.classfile.JavaClass(java.lang.String)":"$stack3.parse()"
+    },
+    {
+      "com.sun.org.apache.bcel.internal.classfile.ClassParser.parse:com.sun.org.apache.bcel.internal.classfile.JavaClass()":"$stack28 = this.fileName"
+    },
+    {
+      "com.sun.org.apache.bcel.internal.classfile.ClassParser.parse:com.sun.org.apache.bcel.internal.classfile.JavaClass()":"$stack28 = this.fileName"
+    },
+    {
+      "com.sun.org.apache.bcel.internal.classfile.ClassParser.parse:com.sun.org.apache.bcel.internal.classfile.JavaClass()":"$stack27.java.io.FileInputStream($stack28)"
+    }
+  ],
+  [
+    {
+      "com.sun.org.apache.bcel.internal.util.ModularRuntimeImage.<init>:void(java.lang.String)":"get(javaHome, $stack6)"
+    },
+    {
+      "com.sun.org.apache.bcel.internal.util.ModularRuntimeImage.<init>:void(java.lang.String)":"jrePath = get(javaHome, $stack6)"
+    },
+    {
+      "com.sun.org.apache.bcel.internal.util.ModularRuntimeImage.<init>:void(java.lang.String)":"jrePath = get(javaHome, $stack6)"
+    },
+    {
+      "com.sun.org.apache.bcel.internal.util.ModularRuntimeImage.<init>:void(java.lang.String)":"jrePath.resolve(\"lib\")"
+    },
+    {
+      "com.sun.org.apache.bcel.internal.util.ModularRuntimeImage.<init>:void(java.lang.String)":"$stack8 = jrePath.resolve(\"lib\")"
+    },
+    {
+      "com.sun.org.apache.bcel.internal.util.ModularRuntimeImage.<init>:void(java.lang.String)":"$stack8 = jrePath.resolve(\"lib\")"
+    },
+    {
+      "com.sun.org.apache.bcel.internal.util.ModularRuntimeImage.<init>:void(java.lang.String)":"$stack8.resolve(\"jrt-fs.jar\")"
+    },
+    {
+      "com.sun.org.apache.bcel.internal.util.ModularRuntimeImage.<init>:void(java.lang.String)":"jrtFsPath = $stack8.resolve(\"jrt-fs.jar\")"
+    },
+    {
+      "com.sun.org.apache.bcel.internal.util.ModularRuntimeImage.<init>:void(java.lang.String)":"jrtFsPath = $stack8.resolve(\"jrt-fs.jar\")"
+    },
+    {
+      "com.sun.org.apache.bcel.internal.util.ModularRuntimeImage.<init>:void(java.lang.String)":"jrtFsPath.toUri()"
+    },
+    {
+      "com.sun.org.apache.bcel.internal.util.ModularRuntimeImage.<init>:void(java.lang.String)":"$stack13 = jrtFsPath.toUri()"
+    },
+    {
+      "com.sun.org.apache.bcel.internal.util.ModularRuntimeImage.<init>:void(java.lang.String)":"$stack13 = jrtFsPath.toUri()"
+    },
+    {
+      "com.sun.org.apache.bcel.internal.util.ModularRuntimeImage.<init>:void(java.lang.String)":"$stack13.toURL()"
+    },
+    {
+      "com.sun.org.apache.bcel.internal.util.ModularRuntimeImage.<init>:void(java.lang.String)":"$stack14 = $stack13.toURL()"
+    },
+    {
+      "com.sun.org.apache.bcel.internal.util.ModularRuntimeImage.<init>:void(java.lang.String)":"$stack14 = $stack13.toURL()"
+    },
+    {
+      "com.sun.org.apache.bcel.internal.util.ModularRuntimeImage.<init>:void(java.lang.String)":"$stack11[0] = $stack14"
+    },
+    {
+      "com.sun.org.apache.bcel.internal.util.ModularRuntimeImage.<init>:void(java.lang.String)":"$stack11[0] = $stack14"
+    },
+    {
+      "com.sun.org.apache.bcel.internal.util.ModularRuntimeImage.<init>:void(java.lang.String)":"$stack10.java.net.URLClassLoader($stack11)"
+    }
+  ],
+  [
+    {
+      "com.sun.jndi.dns.DnsUrl.<init>:void(java.lang.String)":"this.com.sun.jndi.toolkit.url.Uri(url)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.<init>:void(java.lang.String)":"this.init(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.init:void(java.lang.String)":"this.parse(uri, $stack2)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parse:void(java.lang.String,com.sun.jndi.toolkit.url.Uri$ParseMode)":"this.parseStrict(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parse:void(java.lang.String,com.sun.jndi.toolkit.url.Uri$ParseMode)":"this.parseStrict(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parse:void(java.lang.String,com.sun.jndi.toolkit.url.Uri$ParseMode)":"this.parseCompat(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.indexOf(58)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.indexOf(47)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.indexOf(63)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.indexOf(35)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"makeConcatWithConstants(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"makeConcatWithConstants(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.length()"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"$stack22 = uri.length()"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"$stack22 = uri.length()"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"$stack22 - 1"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"$stack23 = $stack22 - 1"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"$stack23 = $stack22 - 1"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"i != $stack23"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"i != $stack23"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.substring(0, i)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"i = i + 1"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"i = i + 1"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.startsWith(\"//\", i)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"i = i + 2"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"i = i + 2"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.indexOf(47, i)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.indexOf(47, i)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"enda = uri.indexOf(47, i)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"enda = uri.indexOf(47, i)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"enda == $i5"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"qmark >= enda"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"enda == $i7"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"fmark >= enda"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"enda >= 0"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"enda <= i"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"enda <= i"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.substring(i, enda)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.substring(i, enda)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"uri.substring(0, enda)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"$stack37 = uri.substring(0, enda)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"$stack37 = uri.substring(0, enda)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"makeConcatWithConstants($stack37)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"$stack38 = makeConcatWithConstants($stack37)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"$stack38 = makeConcatWithConstants($stack37)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseCompat:void(java.lang.String)":"$u2.java.net.URI($stack38)"
+    }
+  ],
+  [
+    {
+      "com.sun.jndi.dns.DnsUrl.<init>:void(java.lang.String)":"this.com.sun.jndi.toolkit.url.Uri(url)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.<init>:void(java.lang.String)":"this.init(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.init:void(java.lang.String)":"this.parse(uri, $stack2)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parse:void(java.lang.String,com.sun.jndi.toolkit.url.Uri$ParseMode)":"this.parseStrict(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"this.isSchemeOnly(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"this.isSchemeOnly(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$u0.java.net.URI(uri)"
+    }
+  ],
+  [
+    {
+      "com.sun.jndi.toolkit.url.Uri.<init>:void(java.lang.String)":"this.init(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.init:void(java.lang.String)":"this.parse(uri, $stack2)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parse:void(java.lang.String,com.sun.jndi.toolkit.url.Uri$ParseMode)":"this.parseStrict(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"this.isSchemeOnly(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"this.isSchemeOnly(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$u0.java.net.URI(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"makeConcatWithConstants(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"makeConcatWithConstants(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"uri.indexOf(58)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$stack9 = uri.indexOf(58)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$stack9 = uri.indexOf(58)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"uri.substring(0, $stack9)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"uri.substring(0, $stack9)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"makeConcatWithConstants(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$stack12 = makeConcatWithConstants(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$stack12 = makeConcatWithConstants(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$u4.java.net.URI($stack12)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$u4.java.net.URI($stack12)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"auth#17 = $u4"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"auth#17 = $u4"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"auth#17.getScheme()"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"auth#17.getScheme()"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$stack16 = auth#17.getScheme()"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$stack16 = auth#17.getScheme()"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"this.checkSchemeOnly(uri, $stack16)"
+    },
+    {
+      "com.sun.jndi.dns.DnsUrl.checkSchemeOnly:boolean(java.lang.String,java.lang.String)":"makeConcatWithConstants(scheme)"
+    },
+    {
+      "com.sun.jndi.dns.DnsUrl.checkSchemeOnly:boolean(java.lang.String,java.lang.String)":"$stack3 = makeConcatWithConstants(scheme)"
+    },
+    {
+      "com.sun.jndi.dns.DnsUrl.checkSchemeOnly:boolean(java.lang.String,java.lang.String)":"$stack3 = makeConcatWithConstants(scheme)"
+    },
+    {
+      "com.sun.jndi.dns.DnsUrl.checkSchemeOnly:boolean(java.lang.String,java.lang.String)":"uri.equals($stack3)"
+    },
+    {
+      "com.sun.jndi.dns.DnsUrl.checkSchemeOnly:boolean(java.lang.String,java.lang.String)":"uri.equals($stack3)"
+    },
+    {
+      "com.sun.jndi.dns.DnsUrl.checkSchemeOnly:boolean(java.lang.String,java.lang.String)":"uri.equals($stack5)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"this.checkSchemeOnly(uri, $stack16)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"this.newInvalidURISchemeException(uri)"
+    }
+  ],
+  [
+    {
+      "com.sun.jndi.dns.DnsUrl.<init>:void(java.lang.String)":"this.com.sun.jndi.toolkit.url.Uri(url)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.<init>:void(java.lang.String)":"this.init(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.init:void(java.lang.String)":"this.parse(uri, $stack2)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parse:void(java.lang.String,com.sun.jndi.toolkit.url.Uri$ParseMode)":"this.parseStrict(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"this.isSchemeOnly(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"this.isSchemeOnly(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$u0.java.net.URI(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"makeConcatWithConstants(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"makeConcatWithConstants(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"uri.indexOf(58)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$stack9 = uri.indexOf(58)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$stack9 = uri.indexOf(58)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"uri.substring(0, $stack9)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"uri.substring(0, $stack9)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"makeConcatWithConstants(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$stack12 = makeConcatWithConstants(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$stack12 = makeConcatWithConstants(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$u4.java.net.URI($stack12)"
+    }
+  ],
+  [
+    {
+      "com.sun.jmx.remote.security.MBeanServerFileAccessController.<init>:void(java.lang.String)":"propertiesFromFile(accessFileName)"
+    },
+    {
+      "com.sun.jmx.remote.security.MBeanServerFileAccessController.propertiesFromFile:java.util.Properties(java.lang.String)":"$stack5.java.io.FileInputStream(fname)"
+    }
+  ],
+  [
+    {
+      "com.sun.jndi.ldap.LdapURL.<init>:void(java.lang.String)":"this.init(url)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.init:void(java.lang.String)":"this.parse(uri, $stack2)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parse:void(java.lang.String,com.sun.jndi.toolkit.url.Uri$ParseMode)":"this.parseStrict(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"this.isSchemeOnly(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"this.isSchemeOnly(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$u0.java.net.URI(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"makeConcatWithConstants(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"makeConcatWithConstants(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"uri.indexOf(58)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$stack9 = uri.indexOf(58)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$stack9 = uri.indexOf(58)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"uri.substring(0, $stack9)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"uri.substring(0, $stack9)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"makeConcatWithConstants(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$stack12 = makeConcatWithConstants(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$stack12 = makeConcatWithConstants(uri)"
+    },
+    {
+      "com.sun.jndi.toolkit.url.Uri.parseStrict:void(java.lang.String)":"$u4.java.net.URI($stack12)"
+    }
+  ],
+  [
+    {
+      "com.sun.jndi.dns.DnsUrl.<init>:void(java.lang.String)":"this.com.sun.jndi.toolkit.url.Uri(url)"
+    },
+    {
+      "com.sun.jndi.dns.DnsUrl.<init>:void(java.lang.String)":"this.com.sun.jndi.toolkit.url.Uri(url)"
+    },
+    {
+      "com.sun.jndi.dns.DnsUrl.<init>:void(java.lang.String)":"this.newInvalidURISchemeException(url)"
+    }
+  ],
+  [
+    {
+      "com.sun.jndi.dns.DnsUrl.<init>:void(java.lang.String)":"this.com.sun.jndi.toolkit.url.Uri(url)"
+    },
+    {
+      "com.sun.jndi.dns.DnsUrl.<init>:void(java.lang.String)":"this.newInvalidURISchemeException(url)"
+    }
+  ],
+  [
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId:java.lang.String(java.lang.String,java.lang.String)":"$u0.com.sun.org.apache.xerces.internal.util.URI(systemId)"
+    },
+    {
+      "com.sun.org.apache.xerces.internal.impl.XMLEntityManager.expandSystemId:java.lang.String(java.lang.String,java.lang.String)":"fixURI(systemId)"
+    }
+  ],
+  [
+    {
+      "com.sun.org.apache.bcel.internal.util.ClassPath.<init>:void(java.lang.String)":"$stack8.java.util.StringTokenizer(class_path, $stack9)"
+    },
+    {
+      "com.sun.org.apache.bcel.internal.util.ClassPath.<init>:void(java.lang.String)":"$stack8.java.util.StringTokenizer(class_path, $stack9)"
+    },
+    {
+      "com.sun.org.apache.bcel.internal.util.ClassPath.<init>:void(java.lang.String)":"tok = $stack8"
+    },
+    {
+      "com.sun.org.apache.bcel.internal.util.ClassPath.<init>:void(java.lang.String)":"tok = $stack8"
+    },
+    {
+      "com.sun.org.apache.bcel.internal.util.ClassPath.<init>:void(java.lang.String)":"tok.hasMoreTokens()"
+    },
+    {
+      "com.sun.org.apache.bcel.internal.util.ClassPath.<init>:void(java.lang.String)":"tok.nextToken()"
+    },
+    {
+      "com.sun.org.apache.bcel.internal.util.ClassPath.<init>:void(java.lang.String)":"path = tok.nextToken()"
+    },
+    {
+      "com.sun.org.apache.bcel.internal.util.ClassPath.<init>:void(java.lang.String)":"path = tok.nextToken()"
+    },
+    {
+      "com.sun.org.apache.bcel.internal.util.ClassPath.<init>:void(java.lang.String)":"path.equals(\"\")"
+    },
+    {
+      "com.sun.org.apache.bcel.internal.util.ClassPath.<init>:void(java.lang.String)":"$stack18.java.io.File(path)"
+    }
+  ]
+]
