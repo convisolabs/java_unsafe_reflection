@@ -85,7 +85,7 @@ class Tester:
         schemes = [
             'jdbc:mysql', 'jdbc:postgresql', 'jdbc:sqlserver',
             'jdbc:oracle', 'jdbc:sqlite', 'jdbc:h2',
-            'mongodb://', 'mongodb+srv://'
+            'mongodb', 'mongodb+srv'
         ]
         for scheme in schemes:
             self.run_cmd(['./run.sh', class_name, f"{scheme}://127.0.0.1:{self.port}"])
