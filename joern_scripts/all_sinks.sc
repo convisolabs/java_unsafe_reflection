@@ -116,8 +116,7 @@ def sinks = {
             e => (e.location.methodFullName, e.astParent.code)
         )
     )
-    //browse(result.l)
-    result.toJsonPretty |> "result_jdk.json"
+    browse(result.l)
 }
 
 // joern --script all_sinks.sc --params code=jars/Test2.jar
