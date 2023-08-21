@@ -80,7 +80,7 @@ class Tester:
 
         schemes = ['http', 'ftp', 'ldap', 'ssh', 'redis']
         for scheme in schemes:
-            self.run_cmd(['./run.sh', class_name, f"{scheme}://127.0.0.1:4444/?x={class_name}"])
+            self.run_cmd(['./run.sh', class_name, f"{scheme}://127.0.0.1:{self.port}/?x={class_name}"])
 
         schemes = [
             'jdbc:mysql', 'jdbc:postgresql', 'jdbc:sqlserver',
@@ -88,7 +88,7 @@ class Tester:
             'mongodb://', 'mongodb+srv://'
         ]
         for scheme in schemes:
-            self.run_cmd(['./run.sh', class_name, f"{scheme}://127.0.0.1:4444"])
+            self.run_cmd(['./run.sh', class_name, f"{scheme}://127.0.0.1:{self.port}"])
 
 
     def run_cmd(self, cmd):
